@@ -1,28 +1,68 @@
 import pandas as pd
 
-# Load dataset
-data = pd.read_csv("dataset/employees.csv")
 
-print("Original Data")
-print(data)
+# Load datasets
 
+employee = pd.read_csv(
+    "dataset/employee_master.csv"
+)
 
-# Remove Employee_ID and Name
-data_cleaned = data.drop(["Employee_ID", "Name"], axis=1)
+attendance = pd.read_csv(
+    "dataset/attendance.csv"
+)
 
+leave = pd.read_csv(
+    "dataset/leave_records.csv"
+)
 
-print("\nAfter Removing Unnecessary Columns")
-print(data_cleaned)
-
-
-data_cleaned = pd.get_dummies(data_cleaned, columns=["Department"])
-
-
-print("\nAfter Encoding Department")
-print(data_cleaned)
+salary = pd.read_csv(
+    "dataset/salary.csv"
+)
 
 
-data_cleaned.to_csv("dataset/cleaned_employees.csv", index=False)
+# Remove duplicate rows
+
+employee = employee.drop_duplicates()
+
+attendance = attendance.drop_duplicates()
+
+leave = leave.drop_duplicates()
+
+salary = salary.drop_duplicates()
 
 
-print("\nCleaned dataset saved successfully!")
+# Handle missing values
+
+employee = employee.fillna("Unknown")
+
+attendance = attendance.fillna("Unknown")
+
+leave = leave.fillna("Unknown")
+
+salary = salary.fillna(0)
+
+
+# Save cleaned datasets
+
+employee.to_csv(
+    "dataset/clean_employee_master.csv",
+    index=False
+)
+
+attendance.to_csv(
+    "dataset/clean_attendance.csv",
+    index=False
+)
+
+leave.to_csv(
+    "dataset/clean_leave_records.csv",
+    index=False
+)
+
+salary.to_csv(
+    "dataset/clean_salary.csv",
+    index=False
+)
+
+
+print("Data Cleaning Completed Successfully!")

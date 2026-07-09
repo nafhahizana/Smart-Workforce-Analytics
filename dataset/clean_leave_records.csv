@@ -77,7 +77,6 @@ Employee_ID,Leave_Type,Leave_Date
 49,Sick Leave,2026-02-11
 99,Paid Leave,2026-01-08
 26,Sick Leave,2026-02-16
-99,Paid Leave,2026-01-08
 72,Casual Leave,2026-02-03
 98,Sick Leave,2026-02-12
 8,Casual Leave,2026-02-09
@@ -85,7 +84,6 @@ Employee_ID,Leave_Type,Leave_Date
 81,Casual Leave,2026-02-27
 91,Paid Leave,2026-02-27
 49,Casual Leave,2026-03-27
-57,Sick Leave,2026-02-02
 30,Paid Leave,2026-01-30
 53,Paid Leave,2026-02-07
 30,Casual Leave,2026-02-14
@@ -213,7 +211,6 @@ Employee_ID,Leave_Type,Leave_Date
 56,Sick Leave,2026-03-18
 49,Paid Leave,2026-03-21
 66,Sick Leave,2026-01-03
-83,Paid Leave,2026-01-26
 7,Paid Leave,2026-01-30
 3,Paid Leave,2026-02-26
 41,Sick Leave,2026-03-17
@@ -236,7 +233,6 @@ Employee_ID,Leave_Type,Leave_Date
 28,Casual Leave,2026-02-16
 85,Paid Leave,2026-02-19
 47,Paid Leave,2026-03-11
-62,Paid Leave,2026-03-17
 70,Sick Leave,2026-01-30
 21,Paid Leave,2026-02-26
 63,Casual Leave,2026-03-20
@@ -266,7 +262,6 @@ Employee_ID,Leave_Type,Leave_Date
 71,Casual Leave,2026-01-20
 89,Paid Leave,2026-01-23
 86,Sick Leave,2026-02-02
-75,Casual Leave,2026-02-03
 81,Paid Leave,2026-03-30
 19,Casual Leave,2026-03-22
 12,Paid Leave,2026-02-12
