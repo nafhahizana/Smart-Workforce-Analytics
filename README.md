@@ -238,6 +238,16 @@ HR_Analytics_Report.xlsx
 HR_Analytics_Report.pdf
 
 
+## Future Enhancements
+
+- Replace the sample dataset with live attendance data from an employee attendance application.
+- Integrate Firebase or another database for real-time employee information storage.
+- Enable automatic dashboard updates whenever new attendance records are added.
+- Implement real-time HR monitoring and analytics.
+- Add predictive analytics for employee performance and attendance trends.
+
+
+
 Conclusion
 
 Smart Workforce Analytics provides an effective HR decision support solution by combining data processing, analytics, visualization, and automated reporting.
