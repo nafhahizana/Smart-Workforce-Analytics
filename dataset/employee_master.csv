@@ -1,0 +1,101 @@
+Employee_ID,Employee_Name,Age,Department,Designation,Monthly_Salary
+1,Rahul1,54,Sales,Executive,75184
+2,Kiran2,54,Finance,Executive,36174
+3,Divya3,32,Finance,Executive,60978
+4,Ravi4,22,Marketing,Executive,83470
+5,Meena5,45,Finance,Team Lead,70366
+6,Priya6,34,Finance,Team Lead,54085
+7,Rahul7,44,Finance,Manager,53794
+8,John8,48,IT,Analyst,88985
+9,Anu9,51,IT,Executive,49548
+10,Rahul10,54,HR,Team Lead,88528
+11,Priya11,37,HR,Manager,68201
+12,John12,28,HR,Team Lead,69715
+13,Ravi13,25,Sales,Developer,63506
+14,Divya14,22,Sales,Team Lead,68171
+15,Kiran15,32,IT,Team Lead,40801
+16,Arun16,47,HR,Team Lead,82914
+17,Priya17,51,HR,Executive,49754
+18,Rahul18,53,IT,Executive,36971
+19,Ravi19,40,IT,Developer,77879
+20,Asha20,33,IT,Analyst,71492
+21,Asha21,50,HR,Team Lead,42744
+22,Arun22,25,Finance,Team Lead,85740
+23,Arun23,48,Finance,Team Lead,67234
+24,Kiran24,39,IT,Executive,65911
+25,Arun25,47,HR,Manager,71912
+26,Ravi26,39,Sales,Team Lead,87456
+27,Rahul27,48,Sales,Developer,58043
+28,John28,25,IT,Analyst,85121
+29,Meena29,36,IT,Analyst,77542
+30,John30,47,Finance,Analyst,86960
+31,Kiran31,25,Sales,Developer,85113
+32,Ravi32,34,Finance,Manager,72502
+33,Ravi33,32,HR,Executive,89260
+34,Divya34,41,Finance,Developer,41082
+35,Asha35,46,Finance,Manager,58307
+36,Kiran36,43,Sales,Developer,82521
+37,Meena37,22,Finance,Analyst,67223
+38,Asha38,51,Finance,Team Lead,30617
+39,Kiran39,42,IT,Analyst,35021
+40,Ravi40,54,IT,Developer,78190
+41,Arun41,47,Sales,Manager,53838
+42,John42,47,HR,Developer,54168
+43,John43,43,Finance,Analyst,83808
+44,Priya44,44,Sales,Executive,42494
+45,Ravi45,32,Marketing,Developer,40304
+46,Divya46,26,Sales,Manager,40224
+47,Arun47,39,Sales,Developer,79188
+48,John48,45,Sales,Team Lead,56279
+49,Rahul49,43,IT,Manager,33537
+50,Rahul50,47,IT,Executive,83619
+51,Arun51,37,Finance,Executive,59975
+52,Ravi52,46,IT,Executive,57409
+53,Kiran53,32,Finance,Analyst,80477
+54,Kiran54,48,Sales,Manager,65476
+55,Anu55,37,Finance,Team Lead,87091
+56,Divya56,55,Finance,Executive,63112
+57,Kiran57,34,IT,Developer,73795
+58,Ravi58,41,Sales,Analyst,44372
+59,Ravi59,55,IT,Team Lead,76265
+60,Ravi60,41,Sales,Executive,70367
+61,Anu61,49,IT,Manager,75907
+62,Ravi62,43,IT,Manager,64036
+63,Arun63,32,Sales,Team Lead,81046
+64,Divya64,34,Sales,Executive,32316
+65,Rahul65,55,Sales,Developer,84181
+66,John66,25,HR,Analyst,79502
+67,Rahul67,37,Marketing,Team Lead,30647
+68,John68,26,Finance,Analyst,67049
+69,Kiran69,28,Finance,Developer,50625
+70,Asha70,41,IT,Manager,83190
+71,Kiran71,49,IT,Manager,30121
+72,Anu72,53,HR,Developer,88754
+73,Ravi73,43,IT,Executive,87142
+74,John74,34,HR,Analyst,54179
+75,Asha75,27,HR,Developer,51914
+76,Meena76,47,Marketing,Developer,31154
+77,Priya77,46,IT,Team Lead,56461
+78,Priya78,30,Finance,Team Lead,52170
+79,Rahul79,41,HR,Executive,70083
+80,Ravi80,50,Sales,Analyst,62641
+81,Arun81,23,HR,Executive,87293
+82,Rahul82,53,Finance,Executive,48344
+83,Arun83,40,IT,Analyst,61944
+84,Arun84,50,Finance,Team Lead,30903
+85,Divya85,44,Finance,Analyst,76849
+86,Asha86,43,Sales,Manager,63944
+87,Meena87,41,Finance,Manager,33511
+88,Ravi88,36,HR,Manager,52552
+89,Anu89,41,Finance,Analyst,87078
+90,Asha90,28,Marketing,Analyst,32271
+91,Rahul91,43,Sales,Analyst,46925
+92,Anu92,26,HR,Manager,72139
+93,Anu93,47,HR,Developer,47020
+94,Rahul94,41,HR,Manager,64226
+95,Anu95,43,Sales,Developer,32590
+96,Meena96,45,IT,Developer,52125
+97,Divya97,22,HR,Developer,31927
+98,Meena98,46,Marketing,Team Lead,60323
+99,Priya99,42,Marketing,Team Lead,42630
+100,John100,36,Sales,Developer,67950
