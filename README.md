@@ -2,17 +2,25 @@
 
 ## Project Overview
 
-Smart Workforce Analytics is a Machine Learning based project that analyzes employee data and predicts employee performance scores using different features like age, salary, experience, and department.
+Smart Workforce Analytics is an AI-powered employee analytics system that analyzes workforce data, predicts employee performance, and provides interactive insights through a Streamlit dashboard.
 
-The project includes data analysis, data cleaning, visualization, machine learning model training, and performance prediction.
+The project uses Machine Learning and Data Analytics techniques to understand employee performance based on age, salary, experience, and department.
 
-## Objectives
+---
 
-- Analyze employee-related data
-- Clean and preprocess the dataset
-- Visualize important employee patterns
-- Train a Machine Learning model to predict performance
-- Predict performance score for new employee details
+## Features
+
+- Employee data analysis
+- Data quality checking
+- Data cleaning and preprocessing
+- Salary analysis
+- Performance analysis
+- Department-wise workforce insights
+- Machine Learning performance prediction
+- Interactive Streamlit dashboard
+- Employee report download
+
+---
 
 ## Technologies Used
 
@@ -21,58 +29,84 @@ The project includes data analysis, data cleaning, visualization, machine learni
 - NumPy
 - Matplotlib
 - Scikit-learn
-- Machine Learning
+- Streamlit
+- Git & GitHub
+
+---
 
 ## Project Structure
 
-Smart-Workforce-Analytics
+Smart-Workforce-Analytics/
 
-├── data
-│ ├── employee_data.csv
-│ └── cleaned_employees.csv
 │
-├── analysis
+├── analysis/
 │ ├── data_check.py
 │ ├── data_quality.py
 │ ├── data_cleaning.py
 │ ├── model_training.py
 │ └── predict_performance.py
 │
-├── charts
-│ └── Visualization charts
+├── charts/
 │
-├── models
+├── dashboard/
+│ └── dashboard.py
+│
+├── dataset/
+│
+├── models/
 │ └── performance_model.pkl
 │
+├── exports/
+│
+├── app.py
+├── requirements.txt
 └── README.md
 
+---
 
-## Machine Learning Workflow
+## How to Run
 
-1. Data Collection
-2. Data Checking
-3. Data Quality Analysis
-4. Data Cleaning
-5. Data Visualization
-6. Model Training
-7. Performance Prediction
+Install required packages:
 
-## Model Used
+pip install -r requirements.txt
 
-Linear Regression algorithm is used to predict employee performance score based on employee details.
 
-## Output
+Run dashboard:
 
-The model predicts employee performance scores based on:
+python -m streamlit run dashboard/dashboard.py
+
+
+---
+
+## Machine Learning Model
+
+The project uses a machine learning regression model to predict employee performance scores.
+
+Input features:
 
 - Age
 - Salary
 - Experience
 - Department
 
-## Future Improvements
+Output:
 
-- Use larger employee datasets
-- Apply advanced ML algorithms
-- Build a web application interface
-- Add employee recommendation features
+- Performance Score
+
+---
+
+## Dashboard Preview
+
+The dashboard provides:
+
+- Workforce statistics
+- Salary charts
+- Performance charts
+- Department analysis
+- ML prediction system
+
+---
+
+## Author
+
+Nafha Hizana
